@@ -1,0 +1,5 @@
+def test_split()
+	puts split([1,2,3]) == ['1', '2', '3']
+	puts split("String") == nil
+	puts split(['1', '2', '3']) == ['1', '2', '3']
+end
