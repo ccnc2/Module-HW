@@ -1,0 +1,7 @@
+require "./WyncodeMethods.rb"
+ 
+def split(arr = nil)
+	arr.join(" ").split if arr.respond_to? :join
+end	
+
+test_split
